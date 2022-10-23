@@ -1,0 +1,49 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 200px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #data_container {
+    display: none;
+    font-family: sans-serif;
+    text-align: justify;
+    height: auto;
+    width: 500px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px black solid;
+    border-radius: 20px;
+    color: black;
+    background-color: greenyellow;
+  }
+  
+  #detail_mahasiswa {
+    position: relative;
+  }
+  
+  td {
+    padding: 0 0 10px 15px;
+    font-weight: 600;
+  }
+  
+  h1 {
+    text-align: center;
+    border-bottom: 2px black solid;
+    padding: 0 0 10px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 600;
+  }
